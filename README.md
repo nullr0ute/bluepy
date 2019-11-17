@@ -26,10 +26,6 @@ To install the current released version, on most Debian-based systems:
     $ sudo apt-get install python-pip libglib2.0-dev
     $ sudo pip install bluepy
 
-On Fedora do:
-
-    $ sudo dnf install python-pip glib2-devel
-
 For Python 3, you may need to use `pip3`:
 
     $ sudo apt-get install python3-pip libglib2.0-dev
@@ -42,6 +38,11 @@ For Python 3, you may need to use `pip3`:
     $ cd bluepy
     $ python setup.py build
     $ sudo python setup.py install
+
+On Fedora do:
+
+    $ sudo dnf install python3-pip glib2-devel
+    $ sudo pip3 install bluepy
 
 I would recommend having command-line tools from BlueZ available for debugging. There
 are instructions for building BlueZ on the Raspberry Pi at http://www.elinux.org/RPi_Bluetooth_LE.
